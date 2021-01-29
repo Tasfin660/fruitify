@@ -1,0 +1,13 @@
+.container {
+  max-width: 100rem;
+  margin: 8rem auto 0 auto;
+  padding: 4rem 0;
+  background-color: white;
+  box-shadow: 0 2rem 6rem rgba(black, 0.3);
+  border-radius: 3px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 40rem);
+  justify-content: center;
+  grid-gap: 6rem;
+}

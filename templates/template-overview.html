@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tasfin">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Fruitify // {%FRUITNAME%} overview</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link rel="icon" href="../img/favicon.png">
+</head>
+
+<body>
+    <main class="overview">
+        <header class="header">
+            <a href="/home" class="header__btn"><span>👈</span> Back</a>
+            <h2 class="header-2 text-gradient">{%FRUITNAME%} Overview</h2>
+            <div class="header__icon-box">
+                <a href="https://en.wikipedia.org/wiki/{%FRUITNAME%}" target="blank">
+                    <svg class="header__icon">
+                        <use xlink:href="../img/sprite.svg#icon-wikipedia"></use>
+                    </svg>
+                </a>
+                <a href="https://www.pinterest.com/search/pins/?q={%FRUITNAME%}o&rs=typed&term_meta[]={%FRUITNAME%}o%7Ctyped" target="blank">
+                    <svg class="header__icon">
+                        <use xlink:href="../img/sprite.svg#icon-pinterest"></use>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/explore/tags/{%FRUITNAME%}/" target="blank">
+                    <svg class="header__icon">
+                        <use xlink:href="../img/sprite.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </div>
+        </header>
+        <div class="overview__gallery">
+            <figure class="overview__figure img-overlay">
+                <img src="../img/overview/{%FRUITNAME%}-one.jpg" alt="{%FRUITNAME%}-one" class="overview__img">
+            </figure>
+            <figure class="overview__figure img-overlay">
+                <img src="../img/overview/{%FRUITNAME%}-two.jpg" alt="{%FRUITNAME%}-two" class="overview__img">
+            </figure>
+        </div>
+
+        <div class="overview__season">{%SEASON%} Season</div>
+
+        <div class="overview__description">
+            <div class="overview__box">
+                <div class="overview__heading text-gradient">About</div>
+                <div class="overview__icon-box">
+                    <svg class="overview__icon">
+                        <use xlink:href="../img/sprite.svg#icon-info-with-circle"></use>
+                    </svg>
+                </div>
+                <p class="overview__long">
+                    {%ABOUT%}
+                </p>
+            </div>
+
+            <div class="overview__box">
+                <div class="overview__heading text-gradient">History</div>
+                <div class="overview__icon-box">
+                    <svg class="overview__icon">
+                        <use xlink:href="../img/sprite.svg#icon-history"></use>
+                    </svg>
+                </div>
+                <p class="overview__long">
+                    {%HISTORY%}
+                </p>
+            </div>
+
+            <div class="overview__box">
+                <div class="overview__heading text-gradient">Cultivation</div>
+                <div class="overview__icon-box">
+                    <svg class="overview__icon">
+                        <use xlink:href="../img/sprite.svg#icon-leaf"></use>
+                    </svg>
+                </div>
+                <p class="overview__long">
+                    {%CULTIVATION%}
+                </p>
+            </div>
+
+            <div class="overview__box">
+                <div class="overview__heading text-gradient">Production</div>
+                <div class="overview__icon-box">
+                    <svg class="overview__icon">
+                        <use xlink:href="../img/sprite.svg#icon-industry"></use>
+                    </svg>
+                </div>
+                <p class="overview__long">
+                    {%PRODUCTION%}
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <span class="footer__copy">Copyright &copy; 2020 by Fruitify. All rights reserved.</span>
+    </footer>
+</body>
+
+</html>

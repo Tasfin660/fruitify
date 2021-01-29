@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "fruitName": "watermelon",
+    "description": "Watermelon is a plant species in the family Cucurbitaceae.",
+    "season": "Summer",
+    "about": "Watermelon is a scrambling and trailing vine in the flowering plant family Cucurbitaceae. There is evidence from seeds in Pharaoh tombs of watermelon cultivation in Ancient Egypt.",
+    "history": "The watermelon is a flowering plant that originated in Africa, though there is conflicting research about whether its source is West Africa or Northeast Africa.",
+    "cultivation": "Watermelons are plants grown in climates from tropical to temperate, needing temperatures higher than about 25 °C (77 °F) to thrive. On a garden scale, seeds are usually sown in pots under cover.",
+    "production": "In 2017, global production of watermelons was 118 million tonnes, with China alone accounting for 67% of the total. Secondary producers included Iran, Turkey, and Brazil."
+  },
+  {
+    "id": 1,
+    "fruitName": "orange",
+    "description": "The orange is the fruit of various citrus species in the family Rutaceae.",
+    "season": "Winter",
+    "about": "The orange is the fruit of various citrus species in the family Rutaceae. The sweet orange reproduces asexually varieties of sweet orange arise through mutations.",
+    "history": "The sweet orange is not a wild fruit, having arisen in domestication from a cross between a non-pure mandarin orange and a hybrid pomelo that had a substantial mandarin component.",
+    "cultivation": "Like most citrus plants, oranges do well under moderate temperatures—between 15.5 and 29 °C and require considerable amounts of sunshine and water. In cooler climates, oranges can be grown indoors.",
+    "production": "In 2017, Brazil was the world's leading orange producer, with an output of 17.5 million tonnes, followed by China, India, and the United States as the four major producers."
+  },
+  {
+    "id": 2,
+    "fruitName": "grape",
+    "description": "A grape is a fruit, botanically a berry, of the deciduous vines of the flowering plant.",
+    "season": "Winter",
+    "about": "Grapes can be eaten fresh as table grapes or they can be used for making wine, jam, grape juice, jelly. Grapes are a non-climacteric type of fruit, generally occurring in clusters.",
+    "history": "The cultivation of the domesticated grape began 6k–8k years ago in the Near East. The earliest archeological evidence for a dominant position of wine-making in human culture dates from 8k years ago in Georgia.",
+    "cultivation": "The ideal climate for grape growing is the Mediterranean climate. In its natural habitat, the vines grow and produce during the hot and dry period. Temperatures above 100C to 400C influence the yield and quality.",
+    "production": "According to the Food and Agriculture Organization (FAO), 75,866 square kilometers of the world are dedicated to grapes. Approximately 71% of world grape production is used for wine."
+  },
+  {
+    "id": 3,
+    "fruitName": "raspberry",
+    "description": "The raspberry is the edible fruit of a multitude of plant species.",
+    "season": "Summer",
+    "about": "The raspberry is the edible fruit of a multitude of plant species in the genus Rubus of the rose family. Most of which are in the subgenus Idaeobatus; the name also applies to these plants themselves.",
+    "history": "Raspberry derives its name from raspise, \"a sweet rose-colored wine\" (mid-15th century), from the Anglo-Latin vinum raspeys, or from raspoie, meaning \"thicket\", of Germanic origin.",
+    "cultivation": "Various kinds of raspberries can be cultivated from hardiness zones 3 to 9. Raspberries are traditionally planted in the winter as dormant canes, plug plants produced by tissue culture has become much more common.",
+    "production": "In 2018, world production of raspberries was 870,209 tonnes, with Russia as the leading producer, supplying 19% of the world total. Other major producers were Mexico, Serbia, and Poland."
+  },
+  {
+    "id": 4,
+    "fruitName": "pineapple",
+    "description": "The pineapple is a tropical plant with an edible fruit.",
+    "season": "Spring",
+    "about": "The pineapple (Ananas comosus) is a tropical plant with an edible fruit and the most economically significant plant in the family Bromeliaceae.",
+    "history": "Little is known about domestication but it spread as a crop throughout South America, and it eventually reached the Caribbean, Central America, and Mexico, where it was cultivated by the Mayas and the Aztecs.",
+    "cultivation": "In commercial farming, flowering can be induced artificially, and the early harvesting of the main fruit can encourage the development of a second crop of smaller fruits.",
+    "production": "In 2018, world production of pineapples was 27.9 million tonnes, led by Costa Rica, the Philippines, Brazil, and Thailand as the largest producers."
+  },
+  {
+    "id": 5,
+    "fruitName": "mango",
+    "description": "A mango is a stone fruit produced from numerous species of tropical trees.",
+    "season": "Summer",
+    "about": "A mango is a stone fruit produced from numerous species of tropical trees belonging to the flowering plant genus Mangifera. Most of these species are found in nature as wild mangoes.",
+    "history": "Genetic analysis and comparison of modern mangoes with Paleocene mango leaf fossils found near Damalgiri, Meghalaya indicate that the center of origin of the mango genus was in Indian.",
+    "cultivation": "Mangoes have been cultivated in South Asia for thousands of years and reached Southeast Asia between the fifth and fourth centuries BCE. By the 10th century CE, cultivation had begun in East Africa.",
+    "production": "In 2018, global production of mangoes was 55.4 million tonnes, led by India with 39% (22 million tonnes) of the world total. China and Thailand were the next largest producers."
+  },
+  {
+    "id": 6,
+    "fruitName": "apple",
+    "description": "An apple is an edible fruit produced by an apple tree.",
+    "season": "Summer",
+    "about": "An apple is an edible fruit produced by an apple tree (Malus domestica). Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus.",
+    "history": "Malus sieversii is recognized as a major species to the cultivated apple, and is similar. Due to the genetic variability in Central Asia, this region is generally considered the center of origin for apples.",
+    "cultivation": "Many apples grow readily from seeds. However, more than with most perennial fruits, apples must be propagated asexually to obtain the sweetness and other desirable characteristics of the parent.",
+    "production": "World production of apples in 2018 was 86 million tonnes, with China producing 46% of the total. Secondary producers were the United States and Poland."
+  },
+  {
+    "id": 7,
+    "fruitName": "pomegranate",
+    "description": "The pomegranate is a fruit-bearing deciduous shrub in the family Lythraceae.",
+    "season": "Fall",
+    "about": "The pomegranate originated in the region extending from Iran to northern India, and has been cultivated since ancient times throughout the Mediterranean region.",
+    "history": "The pomegranate is native to a region from modern-day Iran to northern India. Pomegranates have been cultivated throughout the Middle East, South Asia, and Mediterranean region for several millennia.",
+    "cultivation": "P. granatum is grown for its fruit crop, and as ornamental trees and shrubs in parks and gardens. Mature specimens can develop sculptural twisted-bark multiple trunks and a distinctive overall form.",
+    "production": "The total area under cultivation of pomegranate in India is 107.00 thousand ha and production is around 743.00 thousands tons."
+  }
+]

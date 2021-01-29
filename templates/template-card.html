@@ -1,0 +1,23 @@
+<div class="card">
+    <div class="card-left">
+        <figure class="img-overlay">
+            <img src="../img/fruits/{%FRUITNAME%}.jpg" alt="{%FRUITNAME%}" class="card__img">
+        </figure>
+    </div>
+    <div class="card-right">
+        <div class="card__name">{%FRUITNAME%}</div>
+        <p class="card__long">
+            {%DESCRIPTION%}
+        </p>
+        <div class="card__box">
+            <div class="card__icon-box">
+                <svg class="card__icon">
+                    <use xlink:href="../img/sprite.svg#icon-star"></use>
+                </svg>
+            </div>
+            <div class="card__btn-box">
+                <a href="/fruit?id={%ID%}" class="card__btn">Details</a>
+            </div>
+        </div>
+    </div>
+</div>

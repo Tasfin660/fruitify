@@ -1,0 +1,102 @@
+.card {
+  display: flex;
+  border: 1px solid $red;
+  box-shadow: 0 1.5rem 4rem rgba(black, 0.2);
+
+  &__overlay {
+    height: max-content;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($orange, 0.8),
+        rgba($red, 0.8)
+      );
+    }
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+  }
+
+  &__name {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white;
+    text-transform: capitalize;
+    padding: 0.0rem 0.8rem 0.2rem 0.8rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-image: linear-gradient($orange, $red);
+  }
+
+  &__long {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1.2rem;
+  }
+
+  &__box {
+    display: flex;
+    width: 100%;
+    background-image: linear-gradient(to right bottom, #d5d5d5, #e6e6e6);
+  }
+
+  &__icon-box {
+    flex-basis: 40%;
+    padding: 0.3rem 0;
+    transform: translateX(0.6rem);
+  }
+
+  &__icon {
+    display: block;
+    width: 2.2rem;
+    height: 2.2rem;
+    fill: white;
+    cursor: pointer;
+    margin: 0 auto;
+    transform: translateX(-0.6rem);
+  }
+
+  &__btn-box {
+    flex-basis: 60%;
+    padding: 0.3rem 0;
+    background-image: linear-gradient($orange, $red);
+    border-top-left-radius: 1rem;
+    transform: translateX(0.1rem);
+  }
+
+  &__btn {
+    &:link,
+    &:visited {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      text-align: center;
+      display: block;
+    }
+  }
+}
+
+.card-left {
+  flex-basis: 53%;
+}
+
+.card-right {
+  flex-basis: 47%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6f6f6;
+}
